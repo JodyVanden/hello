@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'hello'
+puts Hello.hi(ARGV[0])

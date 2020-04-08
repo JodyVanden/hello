@@ -4,6 +4,8 @@ require "hello/version"
 Gem::Specification.new do |spec|
   spec.name          = "hello"
   spec.version       = Hello::VERSION
+  spec.platform      = Gem::Platform::RUBY
+  spec.required_ruby_version = '>= 2.3.0'
   spec.authors       = ["Jody Vandenschrick"]
   spec.email         = ["jody.vandenschrick@cultureamp.com"]
 
